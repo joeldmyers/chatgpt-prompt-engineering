@@ -18,3 +18,7 @@ prompt = f"""
 response = get_completion(prompt)
 
 print(response)
+
+# Output:
+
+# The author expresses love and appreciation for Dorothee.

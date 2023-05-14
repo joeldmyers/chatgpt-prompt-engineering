@@ -9,6 +9,7 @@ pre-commit = "*"
 mypy = "*"
 
 [packages]
+openai = "*"
 
 [scripts]
 test = "pipenv run pytest"

@@ -54,6 +54,7 @@ python3 chatbot-code/[script-name].py
 - [Request made-up data to be returned in JSON](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/request-structured-output.py)
 - [Generate an ordered list from text](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/transform-text-to-ordered-list.py)
 - [Few-shot example / answer in a consistent style](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/answer-in-consistent-style.py)
+- [Multi-step instructions, structured output](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/multi-step-instructions.py)
 
 ## Principles for prompt engineering
 

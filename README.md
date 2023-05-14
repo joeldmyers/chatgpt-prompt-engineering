@@ -43,3 +43,8 @@ If you would like to disable this, edit this [file](.pre-commit-config.yaml).
 
 1. Write clear and specific instructions.
 2. Give the model time to think.
+
+## Write clear and specific instructions
+
+- clear != short
+- Tactic 1: use delimiters, like triple quotes, triple backticks, triple dashes, angle brackets, xml tags.

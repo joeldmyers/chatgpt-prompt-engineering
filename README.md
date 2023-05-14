@@ -68,3 +68,17 @@ The idea of this is to give a few successful examples of completing tasks. This 
 If the model is making reasoning errors by rushing to an incorrect conclusion, you should try reframing the query to request a chain or series of relevant reasoning before the model provides its final answer.
 
 Another way of thinking about this is that if you give a model a task that's too complex for it to do in a short amount of time, or in a small number of words, it may make up a guess, which is likely to be incorrect.
+
+Principles here: 
+- Break down your request into steps
+- Specify the structure of the output you want in detail. 
+  - This can be done using something like: 
+
+  ```
+  Use the following format:
+  Text: <text to summarize>
+  Summary: <summary>
+  Translation: <summary translation>
+  Names: <list of names in Italian summary>
+  Output JSON: <json with summary and num_names>
+  ```

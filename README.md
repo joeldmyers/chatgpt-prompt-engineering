@@ -4,19 +4,9 @@ Following along [this course](https://www.deeplearning.ai/short-courses/chatgpt-
 
 Using a simple python setup found [here](https://medium.com/@cgrinaldi/a-simple-python-starter-project-c71b0e57b929) to expedite development.
 
-# App setup
-
-This is a Python project skeleton that will you get up and running quickly. It sets up the following:
-- Pre-commit Hooks ([pre-commit](https://pre-commit.com/))
-- Testing ([Pytest](https://docs.pytest.org/en/latest/))
-- Code formatting ([Black](https://github.com/python/black) and [flake8](http://flake8.pycqa.org/en/latest/))
-- Type checking ([mypy](http://mypy-lang.org/))
-
-Prior to every commit, the **pre-commit hooks** will run unit tests, format the code, and perform
-type checking.
-
 ## Project Setup
-This starter project assumes you are using [pipenv](https://github.com/pypa/pipenv) to manage
+
+This project assumes you are using [pipenv](https://github.com/pypa/pipenv) to manage
 virtual environments and project dependencies.
 
 #### 1. Install project dependencies:
@@ -48,3 +38,8 @@ it does the following:
 - Runs mypy for type checking
 
 If you would like to disable this, edit this [file](.pre-commit-config.yaml).
+
+# Principles for prompt engineering: 
+
+1. Write clear and specific instructions.
+2. Give the model time to think.

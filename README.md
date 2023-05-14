@@ -56,3 +56,7 @@ This is helpful because then you could, for example, load the response into a di
 #### Tactic 3: Check whether conditions are satisfied.
 
 Check the assumptions required to do the task. You may also want to check for edge cases here. [Here](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/3434c6317ef67a01d33d6fa86568fdbf0257fbef/chatbot-code/transform-text-to-ordered-list.py#L15) is an example of handling edge cases.
+
+#### Tactic 4: Few-shot prompting
+
+The idea of this is to give a few successful examples of completing tasks. This "demonstrates" to the model what you're looking for. Then you can ask the model to perform the task.

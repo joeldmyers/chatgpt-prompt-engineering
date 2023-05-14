@@ -34,12 +34,14 @@ python3 chatbot-code/[script-name].py
 - [Summarize a paragraph](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/summarize-paragraph.py)
 - [Request made-up data to be returned in JSON](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/request-structured-output.py)
 - [Generate an ordered list from text](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/transform-text-to-ordered-list.py)
+- [Few-shot example / answer in a consistent style](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/answer-in-consistent-style.py)
+
 ## Principles for prompt engineering: 
 
 1. Write clear and specific instructions.
 2. Give the model time to think.
 
-## Write clear and specific instructions
+## Principle 1: Write clear and specific instructions
 
 *Note: clear != short*
 
@@ -60,3 +62,9 @@ Check the assumptions required to do the task. You may also want to check for ed
 #### Tactic 4: Few-shot prompting
 
 The idea of this is to give a few successful examples of completing tasks. This "demonstrates" to the model what you're looking for. Then you can ask the model to perform the task.
+
+## Principle 2: Give the model time to think.
+
+If the model is making reasoning errors by rushing to an incorrect conclusion, you should try reframing the query to request a chain or series of relevant reasoning before the model provides its final answer.
+
+Another way of thinking about this is that if you give a model a task that's too complex for it to do in a short amount of time, or in a small number of words, it may make up a guess, which is likely to be incorrect.

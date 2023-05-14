@@ -4,10 +4,6 @@
 
 - [ChatGPT Prompt Engineering](#chatgpt-prompt-engineering)
   - [Project Setup](#project-setup)
-      - [1. Install project dependencies:](#1-install-project-dependencies)
-      - [2. Add your openai API key to your .env file](#2-add-your-openai-api-key-to-your-env-file)
-      - [2. Run shell:](#2-run-shell)
-      - [4. Run any of the scripts](#4-run-any-of-the-scripts)
   - [Examples in this code base](#examples-in-this-code-base)
   - [Principles for prompt engineering](#principles-for-prompt-engineering)
     - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)

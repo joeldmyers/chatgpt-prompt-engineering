@@ -33,6 +33,7 @@ python3 chatbot-code/[script-name].py
 
 - [Summarize a paragraph](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/summarize-paragraph.py)
 - [Request made-up data to be returned in JSON](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/request-structured-output.py)
+- [Generate an ordered list from text](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/transform-text-to-ordered-list.py)
 ## Principles for prompt engineering: 
 
 1. Write clear and specific instructions.
@@ -54,4 +55,4 @@ This is helpful because then you could, for example, load the response into a di
 
 #### Tactic 3: Check whether conditions are satisfied.
 
-Check the assumptions required to do the task.
+Check the assumptions required to do the task. You may also want to check for edge cases here. [Here](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/3434c6317ef67a01d33d6fa86568fdbf0257fbef/chatbot-code/transform-text-to-ordered-list.py#L15) is an example of handling edge cases.

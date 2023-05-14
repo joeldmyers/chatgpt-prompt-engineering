@@ -9,9 +9,9 @@
     - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
       - [Tactic 1: Use delimiters](#tactic-1-use-delimiters)
       - [Tactic 2: Request structured output](#tactic-2-request-structured-output)
-      - [Tactic 3: Check whether conditions are satisfied.](#tactic-3-check-whether-conditions-are-satisfied)
+      - [Tactic 3: Check whether conditions are satisfied](#tactic-3-check-whether-conditions-are-satisfied)
       - [Tactic 4: Few-shot prompting](#tactic-4-few-shot-prompting)
-    - [Principle 2: Give the model time to think.](#principle-2-give-the-model-time-to-think)
+    - [Principle 2: Give the model time to think](#principle-2-give-the-model-time-to-think)
       - [Tactic 1: Specify the steps required to complete a task](#tactic-1-specify-the-steps-required-to-complete-a-task)
       - [Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion](#tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
 
@@ -72,7 +72,7 @@ Similar to SQL injections, if a customer tried to do something like "forget the 
 
 Requesting structured output like JSON is helpful because then you could, for example, load the response into a dictionary in Python and do something else with it. 
 
-#### Tactic 3: Check whether conditions are satisfied.
+#### Tactic 3: Check whether conditions are satisfied
 
 Check the assumptions required to do the task. You may also want to check for edge cases here. [Here](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/3434c6317ef67a01d33d6fa86568fdbf0257fbef/chatbot-code/transform-text-to-ordered-list.py#L15) is an example of handling edge cases.
 
@@ -80,7 +80,7 @@ Check the assumptions required to do the task. You may also want to check for ed
 
 The idea of this is to give a few successful examples of completing tasks. This "demonstrates" to the model what you're looking for. Then you can ask the model to perform the task.
 
-### Principle 2: Give the model time to think.
+### Principle 2: Give the model time to think
 
 If the model is making reasoning errors by rushing to an incorrect conclusion, you should try reframing the query to request a chain or series of relevant reasoning before the model provides its final answer.
 

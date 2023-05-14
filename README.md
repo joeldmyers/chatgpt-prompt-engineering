@@ -9,14 +9,14 @@
       - [2. Run shell:](#2-run-shell)
       - [4. Run any of the scripts](#4-run-any-of-the-scripts)
   - [Examples in this code base](#examples-in-this-code-base)
-  - [Principles for prompt engineering:](#principles-for-prompt-engineering)
-  - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
+  - [Principles for prompt engineering](#principles-for-prompt-engineering)
+    - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
       - [Tactic 1: use delimiters, like triple quotes, triple backticks, triple dashes, angle brackets, xml tags.](#tactic-1-use-delimiters-like-triple-quotes-triple-backticks-triple-dashes-angle-brackets-xml-tags)
         - [Prompt injections](#prompt-injections)
       - [Tactic 2: Request structured output (e.g., JSON)](#tactic-2-request-structured-output-eg-json)
       - [Tactic 3: Check whether conditions are satisfied.](#tactic-3-check-whether-conditions-are-satisfied)
       - [Tactic 4: Few-shot prompting](#tactic-4-few-shot-prompting)
-  - [Principle 2: Give the model time to think.](#principle-2-give-the-model-time-to-think)
+    - [Principle 2: Give the model time to think.](#principle-2-give-the-model-time-to-think)
       - [Tactic 1: Specify the steps required to complete a task](#tactic-1-specify-the-steps-required-to-complete-a-task)
       - [Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion](#tactic-2-instruct-the-model-to-work-out-its-own-solution-before-rushing-to-a-conclusion)
 
@@ -60,12 +60,12 @@ python3 chatbot-code/[script-name].py
 - [Generate an ordered list from text](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/transform-text-to-ordered-list.py)
 - [Few-shot example / answer in a consistent style](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/answer-in-consistent-style.py)
 
-## Principles for prompt engineering: 
+## Principles for prompt engineering
 
 1. Write clear and specific instructions.
 2. Give the model time to think.
 
-## Principle 1: Write clear and specific instructions
+### Principle 1: Write clear and specific instructions
 
 *Note: clear != short*
 
@@ -87,7 +87,7 @@ Check the assumptions required to do the task. You may also want to check for ed
 
 The idea of this is to give a few successful examples of completing tasks. This "demonstrates" to the model what you're looking for. Then you can ask the model to perform the task.
 
-## Principle 2: Give the model time to think.
+### Principle 2: Give the model time to think.
 
 If the model is making reasoning errors by rushing to an incorrect conclusion, you should try reframing the query to request a chain or series of relevant reasoning before the model provides its final answer.
 

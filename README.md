@@ -2,7 +2,7 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**
 
-- [chatgpt-prompt-engineering](#chatgpt-prompt-engineering)
+- [ChatGPT Prompt Engineering](#chatgpt-prompt-engineering)
   - [Project Setup](#project-setup)
       - [1. Install project dependencies:](#1-install-project-dependencies)
       - [2. Add your openai API key to your .env file](#2-add-your-openai-api-key-to-your-env-file)
@@ -22,7 +22,7 @@
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-# chatgpt-prompt-engineering
+# ChatGPT Prompt Engineering
 
 Following along [this course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 

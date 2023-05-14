@@ -69,6 +69,8 @@ If the model is making reasoning errors by rushing to an incorrect conclusion, y
 
 Another way of thinking about this is that if you give a model a task that's too complex for it to do in a short amount of time, or in a small number of words, it may make up a guess, which is likely to be incorrect.
 
+#### Tactic 1: Specify the steps required to complete a task
+
 Principles here: 
 - Break down your request into steps
 - Specify the structure of the output you want in detail. 
@@ -82,3 +84,5 @@ Principles here:
   Names: <list of names in Italian summary>
   Output JSON: <json with summary and num_names>
   ```
+
+#### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion

@@ -1,20 +1,4 @@
-import openai
-import os
-
-openai.api_key = os.getenv('OPENAI_API_KEY')
-
-
-def get_completion(prompt, model='gpt-3.5-turbo'):
-    messages = [{"role": "user", "content": prompt}]
-
-    response = openai.ChatCompletion.create(
-        model=model,
-        messages=messages,
-        temperature=0  # this is the degree of randomness of the model's output
-    )
-
-    return response.choices[0].message["content"]
-
+from get_completion import get_completion
 
 text = f"""
     Dorothee is sitting in bed and she is my love. I love her so much. \

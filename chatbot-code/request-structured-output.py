@@ -1,4 +1,4 @@
-from get_completion import get_completion
+from chatgpt_base import get_completion
 
 prompt = f"""
 Generate a list of five made-up song names along with artist names and genres. \

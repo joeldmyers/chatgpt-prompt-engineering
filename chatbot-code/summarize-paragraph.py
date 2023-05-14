@@ -1,4 +1,4 @@
-from get_completion import get_completion
+from chatgpt_base import get_completion
 
 text = f"""
     Dorothee is sitting in bed and she is my love. I love her so much. \

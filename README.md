@@ -2,7 +2,7 @@
 
 Following along [this course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 
-Using a simple python setup found [here](https://medium.com/@cgrinaldi/a-simple-python-starter-project-c71b0e57b929) to expedite development.
+Using a simple python setup found [here](https://medium.com/@cgrinaldi/a-simple-python-starter-project-c71b0e57b929), with modifications, to expedite development.
 
 ## Project Setup
 
@@ -14,32 +14,16 @@ virtual environments and project dependencies.
 pipenv install --dev
 ```
 
-#### 2. Setup project to use **pre-commit**:
+#### 2. Run shell:
 ```
-pipenv run pre-commit install
+pipenv shell
 ```
 
-#### 3. Install additional project dependencies:
-```
-pipenv install [package]
-```
-Use the **--dev** flag if needed.
+## Examples in this code base
 
-#### 4. Run tests:
-```
-make test
-```
-Tests will be automatically run prior to every commit.
-
-## Additional Notes
-In addition to autoformatting the code via **Black** and **flake8** for each commit,
-it does the following:
-- Runs the unit tests
-- Runs mypy for type checking
-
-If you would like to disable this, edit this [file](.pre-commit-config.yaml).
-
-# Principles for prompt engineering: 
+- [Summarize a paragraph](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/summarize-paragraph.py)
+- [Request made-up data to be returned in JSON](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/request-structured-output.py)
+## Principles for prompt engineering: 
 
 1. Write clear and specific instructions.
 2. Give the model time to think.

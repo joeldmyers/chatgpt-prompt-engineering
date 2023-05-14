@@ -106,3 +106,5 @@ Principles here:
 #### Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
 
 This can be seen in the [grading homework example](https://github.com/joeldmyers/chatgpt-prompt-engineering/blob/main/chatbot-code/grade-homework.py). If you just ask it quickly to say whether it is correct or not, it may return correct when it is not. By asking it to first determine the actual answer based on the text, and then request whether the answer given is correct or not, you set it up to complete the task effectively.
+
+This can help avoid **hallucinations**, which is when the model makes things up that sound plausible but are not true.
